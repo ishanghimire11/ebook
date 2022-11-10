@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "ShortBaby";
+    src: url(font/GrotleyRegular-mLEWv.otf);
+}
+*{
+    margin:0;
+    padding: 0;
+    background-color:#fff;
+    font-family: "ShortBaby"
+}
+
+
+.container{
+    width: 80%; 
+    margin: auto;
+
+
+
+}
+
+.navbar {
+
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 10%;
+    cursor: pointer;
+}
+
+ul {
+    flex:1;
+    text-align: right;
+
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 25px; 
+}
+
+ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding: 0 10px; 
+}
+
+.butt {
+    width: 3%;
+    cursor: pointer;
+    margin-left: 75px;
+
+
+}
+
+.banner {
+    display: flex;
+    margin-top: 6%;
+}
+
+.left,.right {
+    flex-basis: 50%;
+}
+
+.right img {
+    width: 100%;
+}
+
+
+
+.search {
+    width: 5%;
+    height: 10%;
+    display: flex;
+    padding-bottom: 3px;
+    margin: 10px 0 30px;
+}
+
+.search img {
+    cursor: pointer;
+}
+
+.search input {
+    margin:0 0 20% 20%;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+}
+
+.left h1{
+    font-size: 100px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+
+}
+
+.left h3 {
+    font-size: 35px;
+    font-weight: 300;
+}
+
+span {
+    color: red;
+}
+
+.left p {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #999;
+}
+
+.btn button {
+    padding: 7px 30px;
+    outline: none;
+    border-radius: 15px;
+    border: 1px solid red;
+    cursor: pointer;
+    background: transparent;
+}
+
+.btn .learn {
+    background-color: red;
+    color: white;
+    font-size: 15px;
+}
+
